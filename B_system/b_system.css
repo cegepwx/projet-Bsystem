@@ -149,37 +149,51 @@ body {
 .howdo{
     padding-left: 200px;
     padding-top: 80px;
-    padding-right: 50px;
+    padding-right: 80px;
     padding-bottom: 100px;
+    border: 3px inset #3ca1ff;
 }
 .howdo a{
     text-decoration: none;
     color:white;
     font-weight: bold;
 }
-
-.group{
- padding-left: 100px;
- padding-top: 50px;
- background-color: #0364be;
-}
-
-.ourvalues{
-    padding-left: 50px;
-    padding-top: 80px;
-    padding-right: 200px;
-    padding-bottom: 100px;
-}
-
 .photoworking{
-    max-width: 100%;
+    border: 3px inset #3ca1ff;
+    border-right: none;
+    border-top: #d8ddff;
 }
 
 .photoworking img{
     max-width: 100%;
-    max-height: 100%;
     object-fit: cover;
-}    
+}  
+
+.group{
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color: #0364be;
+    border: 3px inset #3ca1ff;
+   
+}
+
+.ourvalues{
+    padding-left: 90px;
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: 3px inset #3ca1ff;
+    border-left: #004c94;
+    border-right: none;
+    max-width: 400px;
+}
+
+.ourvalues p{
+    border-bottom: 0.3px solid #b8ddff;
+    padding: 10px;
+}
+
+  
 
 .contactus{
     background-color: white;
