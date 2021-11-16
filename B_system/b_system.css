@@ -65,6 +65,7 @@ body {
 .magnifyingGlass {
     height: 20px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .searchInput {
@@ -82,6 +83,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px 25px;
+    cursor: pointer;
 }
 
 .avatar {
@@ -111,7 +113,6 @@ body {
 .makeMagic p {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-weight: 100;
 }
 
 .makeMagic a {
@@ -146,7 +147,6 @@ body {
     padding-top: 80px;
     padding-right: 80px;
     padding-bottom: 100px;
-    border: 3px inset #3ca1ff;
 }
 
 .howdo a {
@@ -156,12 +156,13 @@ body {
 }
 
 .photoworking {
-    border: 3px inset #3ca1ff;
+    /* border: 3px inset #3ca1ff; */
     border-right: none;
     border-top: #d8ddff;
 }
 
 .photoworking img {
+    height: 100%;
     max-width: 100%;
     object-fit: fill;
 }
@@ -170,7 +171,7 @@ body {
     padding-left: 100px;
     padding-top: 50px;
     background-color: #0364be;
-    border: 3px inset #3ca1ff;
+    /* border: 3px inset #3ca1ff; */
 }
 
 .ourvalues {
@@ -178,7 +179,7 @@ body {
     padding-top: 80px;
     padding-right: 100px;
     padding-bottom: 100px;
-    border: 3px inset #3ca1ff;
+    /* border: 3px inset #3ca1ff; */
     border-left: #004c94;
     border-right: none;
     max-width: 400px;
@@ -227,12 +228,29 @@ body {
 }
 
 .userDemand {
-    /* min-width: 500px;  */
     width: 60%;
+    padding-right: 1%;
+}
+
+.userDemand textarea{
+    min-height: 100px;
+}
+
+.userDemand button{
+    cursor: cell;
+    border-radius: 5px;
 }
 
 .userinput {
     outline: none;
+    width: 90%;
+    height: 25px;
+    margin: 8px;
+    margin-left: 0px;
+    padding: 10px;
+    border: 3px solid rgb(223, 222, 222);
+    border-radius: 5px;
+    font-weight: 100;
 }
 
 .userinput:focus {
@@ -243,39 +261,25 @@ body {
     display: flex;
 }
 
-.userDemand input {
-    width: 80%;
-    margin: 5px;
+.authorize input{
+    width: 20px;
+    height: 20px;
+    margin:16px;
     margin-left: 0px;
-    padding: 10px;
-    border: 1px solid rgb(211, 210, 210);
-    border-radius: 5px;
-}
-
-.userDemand textarea {
-    min-width: 80%;
-    border: 1px solid rgb(211, 210, 210);
-    border-radius: 5px;
-    font-weight: lighter;
-    padding: 10px
 }
 
 .userDemand button {
-    padding: 5px 50px 5px 50px;
-    margin-left: 100px;
-    border: none;
-}
-
-.authorize input {
-    width: 20px;
-    height: 20px;
-    margin: 16px;
+    padding: 10px 80px 10px 80px;
     margin-left: 0px;
-    border: 1px solid rgb(211, 210, 210);
+    margin-top: 30px;
+    border: none;
+    font-weight: 100;
 }
 
 .question {
-    max-width: 30%;
+    max-width: 40%;
+    margin-right: 150px;
+    padding: 10px;
 }
 
 .ifyouhave img {
@@ -289,7 +293,9 @@ body {
 .ifyouhave {
     background-color: #eff7ff;
     padding: 5px 10px;
-    margin-bottom: 1px;
+}
+.ifyouhave p{
+    margin: 0px;
 }
 
 .telephone {
@@ -299,6 +305,7 @@ body {
 }
 
 .findoffice {
+    color:#007ef3;
     background-color: #f7f7f7;
     padding: 10px;
     margin-top: 5px;
@@ -342,13 +349,13 @@ footer {
 }
 
 .userlink a{
-    padding-left: 30px;
-    padding-right: auto;
+    padding-right: 30px;
+    padding-left: auto;
 }
 
 .blacklogo {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-top: 3px solid rgb(243, 242, 242);
+    border-top: 3px solid rgb(224, 224, 224);
 }
