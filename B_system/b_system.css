@@ -1,361 +1,357 @@
-html {
-    background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 * h1 {
-    font-size: 250%;
+  font-size: 250%;
 }
 
 * p {
-    font-weight: lighter;
+  font-weight: lighter;
+  font-size: large;
 }
 
 body {
-    margin: 0px;
-    background-color: #007ef3;
+  margin: 0px;
+  background-color: #007ef3;
 }
 
 .firstLine {
-    background-color: rgba(4, 84, 170, 0.5);
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    box-shadow: 2px 4px 6px rgb(18, 117, 223);
+  background-color: rgba(4, 84, 170, 0.5);
+  align-items: center;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  box-shadow: 2px 4px 6px rgb(18, 117, 223);
 }
 
 .userLogo {
-    width: 200px;
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .navigation {
-    display: flex;
-    margin-left: 100px;
-    height: 100%;
+  display: flex;
+  margin-left: 100px;
+  font-size: large;
 }
 
 .firstLine a {
-    display: flex;
-    height: 100%;
-    text-decoration: none;
-    color: white;
-    align-items: center;
-    padding: 0 15px;
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
 }
 
 .firstLine a:hover {
-    background-color: #0364be;
+  background-color: #0364be;
 }
 
 .searchArea {
-    display: flex;
-    margin-right: 30px;
-    margin-left: auto;
-    align-items: center;
+  display: flex;
+  margin-right: 30px;
+  margin-left: auto;
+  align-items: center;
 }
 
 .magnifyingGlass {
-    height: 20px;
-    margin-right: 20px;
-    cursor: pointer;
+  height: 20px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 .searchInput {
-    display: none;
+  display: none;
 }
 
 .yourArea {
-    background-color: transparent;
-    border: 1px solid rgb(211, 211, 211);
-    border-radius: 5px;
-    color: white;
-    font-size: 15px;
-    height: 40px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    padding: 10px 25px;
-    cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  padding: 10px 25px;
+  cursor: pointer;
 }
 
 .avatar {
-    height: 20px;
+  height: 20px;
 }
 
 .workingMan {
-    background-image: url("image/Man_working.png");
-    background-position: 85% 10%;
-    background-repeat: no-repeat;
+  background-image: url("image/Man_working.png");
+  background-position: 85% 10%;
+  background-repeat: no-repeat;
 }
 
 .makeMagic {
-    color: white;
-    height: 600px;
-    text-align: left;
-    padding-left: 200px;
-    padding-top: 100px;
-    width: 400px;
+  color: white;
+  height: 600px;
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 400px;
 }
 
 .makeMagic h1 {
-    font-size: 400%;
-    font-weight: 600;
+  font-size: 400%;
+  font-weight: 600;
 }
 
 .makeMagic p {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .makeMagic a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px 50px 10px 50px;
-    margin-top: 70px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 50px 10px 50px;
+  margin-top: 70px;
 }
 
 .whatDo {
-    background-color: white;
-    text-align: center;
-    padding: 50px 320px 100px 320px;
+  background-color: white;
+  text-align: center;
+  padding: 50px 320px 100px 320px;
 }
 
 .whatDo p {
-    color: rgb(112, 112, 112)
+  color: rgb(112, 112, 112)
 }
 
 .fourGrids {
-    color: white;
-    font-weight: lighter;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  color: white;
+  font-weight: lighter;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .howdo {
-    padding-left: 200px;
-    padding-top: 80px;
-    padding-right: 80px;
-    padding-bottom: 100px;
+  padding-left: 200px;
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 100px;
 }
 
 .howdo a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 .photoworking {
-    /* border: 3px inset #3ca1ff; */
-    border-right: none;
-    border-top: #d8ddff;
+  border-right: none;
+  border-top: #d8ddff;
 }
 
 .photoworking img {
-    height: 100%;
-    max-width: 100%;
-    object-fit: fill;
+  height: 100%;
+  max-width: 100%;
+  object-fit: fill;
 }
 
 .group {
-    padding-left: 100px;
-    padding-top: 50px;
-    background-color: #0364be;
-    /* border: 3px inset #3ca1ff; */
+  padding-left: 100px;
+  padding-top: 50px;
+  background-color: #0364be;
 }
 
 .ourvalues {
-    padding-left: 90px;
-    padding-top: 80px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    /* border: 3px inset #3ca1ff; */
-    border-left: #004c94;
-    border-right: none;
-    max-width: 400px;
+  padding-left: 90px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  border-left: #004c94;
+  max-width: 450px;
 }
 
-.ourvalues p {
-    border-bottom: 0.3px solid #b8ddff;
-    padding: 10px;
+.displaymore {
+  display: flex;
+  border-bottom: 0.3px solid #b8ddff;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.displaymore button {
+  background-color: #007ef3;
+  color: white;
+  border: none;
+  font-size: xx-large;
+  cursor: cell;
 }
 
 .contactus {
-    background-color: white;
-    padding-left: 200px;
-    padding-top: 80px;
+  background-color: white;
+  padding-left: 200px;
+  padding-top: 80px;
 }
 
 .contactus p {
-    margin-bottom: 0px;
-    padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 .customer {
-    display: flex;
-    background-color: white;
-    padding-left: 200px;
-    padding-bottom: 100px;
+  display: flex;
+  background-color: white;
+  padding-left: 200px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 1000px) {
-    .customer {
-        flex-direction: column;
-        /* padding-left: 20px;
+  .customer {
+    flex-direction: column;
+    /* padding-left: 20px;
         padding-right: 20px; */
-        align-items: center;
-    }
+    align-items: center;
+  }
 }
 
-
 @media (max-width: 500px) {
-    .customer {
-        /* flex-direction: column; */
-        /* padding-left: 20px;
+  .customer {
+    /* flex-direction: column; */
+    /* padding-left: 20px;
         padding-right: 20px; */
-        /* align-items: center; */
-    }
+    /* align-items: center; */
+  }
 }
 
 .userDemand {
-    width: 60%;
-    padding-right: 1%;
+  min-width: 50%;
+  padding-right: 1%;
 }
 
-.userDemand textarea{
-    min-height: 100px;
-}
-
-.userDemand button{
-    cursor: cell;
-    border-radius: 5px;
-}
-
-.userinput {
-    outline: none;
-    width: 90%;
-    height: 25px;
-    margin: 8px;
-    margin-left: 0px;
-    padding: 10px;
-    border: 3px solid rgb(223, 222, 222);
-    border-radius: 5px;
-    font-weight: 100;
-}
-
-.userinput:focus {
-    border: 3px solid #3ca1ff;
-}
-
-.authorize {
-    display: flex;
-}
-
-.authorize input{
-    width: 20px;
-    height: 20px;
-    margin:16px;
-    margin-left: 0px;
+.userDemand textarea {
+  min-height: 100px;
 }
 
 .userDemand button {
-    padding: 10px 80px 10px 80px;
-    margin-left: 0px;
-    margin-top: 30px;
-    border: none;
-    font-weight: 100;
+  cursor: cell;
+  border-radius: 5px;
+}
+
+.userinput {
+  outline: none;
+  width: 90%;
+  height: 25px;
+  margin: 8px;
+  margin-left: 0px;
+  padding: 10px;
+  border: 3px solid rgb(223, 222, 222);
+  border-radius: 5px;
+  font-weight: 100;
+}
+
+.userinput:focus {
+  border: 3px solid #3ca1ff;
+}
+
+.authorize {
+  display: flex;
+}
+
+.authorize input {
+  width: 20px;
+  height: 20px;
+  margin: 16px;
+  margin-left: 0px;
+}
+
+.userDemand button {
+  padding: 10px 80px 10px 80px;
+  margin-left: 0px;
+  margin-top: 30px;
+  border: none;
+  font-weight: 100;
 }
 
 .question {
-    max-width: 40%;
-    margin-right: 150px;
-    padding: 10px;
+  max-width: 40%;
+  margin-right: 150px;
+  padding: 10px;
 }
 
 .ifyouhave img {
-    padding: 20px;
-    border-radius: 1000px;
-    width: 150px;
-    height: 150px;
-    background-color: #eff7ff
+  padding: 20px;
+  border-radius: 1000px;
+  width: 150px;
+  height: 150px;
+  background-color: #eff7ff
 }
 
 .ifyouhave {
-    background-color: #eff7ff;
-    padding: 5px 10px;
+  background-color: #eff7ff;
+  padding: 5px 10px;
 }
-.ifyouhave p{
-    margin: 0px;
+
+.ifyouhave p {
+  margin: 0px;
+  padding: 10px;
 }
 
 .telephone {
-    background-color: #eff7ff;
-    padding: 5px 20px;
-    margin-top: 1px;
+  background-color: #eff7ff;
+  padding: 5px 20px;
+  margin-top: 1px;
 }
 
 .findoffice {
-    color:#007ef3;
-    background-color: #f7f7f7;
-    padding: 10px;
-    margin-top: 5px;
+  color: #007ef3;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 .wantstart {
-    background-color: #f3f3f3;
-    font-weight: bolder;
-    font-size: 150%;
-    text-align: center;
-    height: 150px;
-    padding-top: 80px;
-    border-top: 3px solid rgb(224, 224, 224);
-    border-bottom: 3px solid rgb(224, 224, 224);
+  background-color: #f3f3f3;
+  font-weight: bolder;
+  font-size: 150%;
+  text-align: center;
+  height: 150px;
+  padding-top: 80px;
+  border-top: 3px solid rgb(224, 224, 224);
+  border-bottom: 3px solid rgb(224, 224, 224);
 }
 
 .wantstart a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    font-size: 65%;
-    border-radius: 5px;
-    padding: 15px 50px 15px 50px;
-    background-color: #007ef3;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 65%;
+  border-radius: 5px;
+  padding: 15px 50px 15px 50px;
+  background-color: #007ef3;
 }
 
 .wantstart p {
-    margin-top: 0px;
-    margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 footer {
-    background-color: white;
+  background-color: white;
 }
 
-.userlink{
-  width: 100%;
+.userlink {
   text-align: center;
   height: 120px;
   padding-top: 70px;
 }
 
-.userlink a{
-    padding-right: 30px;
-    padding-left: auto;
+.userlink a {
+  padding-right: 10px;
+  padding-left: auto;
 }
 
 .blacklogo {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-top: 3px solid rgb(224, 224, 224);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 3px solid rgb(224, 224, 224);
+}
+
+.blacklogo svg {
+  height: 20px;
+  width: auto;
 }
