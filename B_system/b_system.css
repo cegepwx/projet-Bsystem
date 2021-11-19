@@ -218,7 +218,7 @@ body {
 }
 
 .userDemand {
-  min-width: 50%;
+  min-width: 54%;
   padding-right: 1%;
 }
 
@@ -299,7 +299,7 @@ body {
 .findoffice {
   color: #007ef3;
   background-color: #f7f7f7;
-  padding: 10px;
+  padding: 20px;
   margin-top: 5px;
 }
 
@@ -341,7 +341,7 @@ footer {
 
 .userlink a {
   padding-right: 10px;
-  padding-left: auto;
+  padding-left: 10px;
 }
 
 .blacklogo {
