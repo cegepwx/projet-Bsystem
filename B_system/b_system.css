@@ -3,12 +3,12 @@
 }
 
 * h1 {
-  font-size: 250%;
+  font-size: calc(1.5rem + 2vw);
 }
 
 * p {
   font-weight: lighter;
-  font-size: large;
+  font-size: calc(0.5rem + 1vw);
 }
 
 body {
@@ -16,6 +16,7 @@ body {
   background-color: #007ef3;
 }
 
+/* ||section header */
 .firstLine {
   background-color: rgba(4, 84, 170, 0.5);
   align-items: center;
@@ -23,6 +24,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   box-shadow: 2px 4px 6px rgb(18, 117, 223);
+  font-size: calc(0.5rem + 0.8vw);
 }
 
 .userLogo {
@@ -32,7 +34,6 @@ body {
 .navigation {
   display: flex;
   margin: 0px auto;
-  font-size: large;
 }
 
 .firstLine a {
@@ -67,7 +68,7 @@ body {
   border: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
   color: white;
-  font-size: 15px;
+  font-size: calc(0.5rem + 0.8vw);
   display: flex;
   padding: 10px 25px;
   cursor: pointer;
@@ -77,6 +78,7 @@ body {
   height: 20px;
 }
 
+/* ||section "we make magic" */
 .workingMan {
   background-image: url("image/Man_working.png");
   background-position: 85% 10%;
@@ -92,7 +94,7 @@ body {
 }
 
 .makeMagic h1 {
-  font-size: 400%;
+  font-size: calc(1.5rem + 3vw);
   font-weight: 600;
 }
 
@@ -111,6 +113,7 @@ body {
   margin-top: 70px;
 }
 
+/* ||section "What do we do" */
 .whatDo {
   background-color: white;
   text-align: center;
@@ -121,6 +124,7 @@ body {
   color: rgb(112, 112, 112)
 }
 
+/* ||section 4 grids */
 .fourGrids {
   color: white;
   font-weight: lighter;
@@ -128,11 +132,17 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+/*|| 1em grid "How do we do it" */
 .howdo {
   padding-left: 200px;
   padding-top: 80px;
   padding-right: 80px;
   padding-bottom: 100px;
+  line-height: 200%;
+}
+.howdo h1{
+  padding-bottom: 10px;
+  line-height: normal;
 }
 
 .howdo a {
@@ -140,35 +150,38 @@ body {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  
 }
 .howdo img{
   padding-left: 12px;
-  padding-top: 8px;
+  padding-top: 12px;
+  height: 15px;
 }
 
+/*|| 2em grid photoworking */
 .photoworking {
   border-right: none;
   border-top: #d8ddff;
 }
 
 .photoworking img {
-  width: 100%;
   height: 100%;
-  
-  object-fit: fill;
+  width: 100%;
+  object-fit: cover;
 }
 
+/* ||3em grid image "groupe" */
 .group {
-  padding-left: 100px;
-  padding-top: 50px;
+  display: flex-box;
+  padding: 100px;
   background-color: #0364be;
 }
 
+/* ||4em grid "Our values" */
 .ourvalues {
   padding-left: 90px;
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 100px;
+  padding-right: 200px;
   border-left: #004c94;
   max-width: 450px;
 }
@@ -176,7 +189,7 @@ body {
 .displaymore {
   display: flex;
   border-bottom: 0.3px solid #b8ddff;
-  padding: 10px;
+  padding: 0px;
   justify-content: space-between;
 }
 
@@ -188,6 +201,7 @@ body {
   cursor: pointer;
 }
 
+/* ||section "Contact us!" */
 .contactus {
   background-color: white;
   padding-left: 200px;
@@ -204,6 +218,8 @@ body {
   background-color: white;
   padding-left: 200px;
   padding-bottom: 100px;
+  justify-content: start;
+  padding-right: 210px;
 }
 
 @media (max-width: 1000px) {
@@ -274,8 +290,9 @@ body {
 
 .question {
   max-width: 40%;
-  padding-right: 150px;
+  padding-right: 0px;
   padding: 10px;
+  padding-left: 70px;
 }
 
 .ifyouhave {
@@ -306,6 +323,7 @@ body {
   color: #007ef3;
 }
 
+/* ||section "Do you want to start" */
 .wantstart {
   background-color: #f3f3f3;
   font-weight: bolder;
@@ -332,6 +350,7 @@ body {
   margin-bottom: 30px;
 }
 
+/* ||section footer */
 footer {
   background-color: white;
 }
