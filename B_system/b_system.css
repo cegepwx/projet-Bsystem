@@ -3,7 +3,7 @@
 }
 
 * h1 {
-  font-size: 250%;
+  font-size: 300%;
 }
 
 * p {
@@ -31,14 +31,14 @@ body {
 
 .navigation {
   display: flex;
-  margin-left: 100px;
+  margin: 0px auto;
   font-size: large;
 }
 
 .firstLine a {
   text-decoration: none;
   color: white;
-  padding: 0px 15px;
+  padding: 28px 15px;
 }
 
 .firstLine a:hover {
@@ -107,7 +107,7 @@ body {
   font-weight: normal;
   border: 1px solid white;
   border-radius: 5px;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px;
   margin-top: 70px;
 }
 
@@ -133,12 +133,18 @@ body {
   padding-top: 80px;
   padding-right: 80px;
   padding-bottom: 100px;
+  line-height: 200%;
 }
 
 .howdo a {
+  display: flex;
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+.howdo img{
+  padding-left: 12px;
+  padding-top: 8px;
 }
 
 .photoworking {
@@ -147,29 +153,31 @@ body {
 }
 
 .photoworking img {
+  width: 100%;
   height: 100%;
-  max-width: 100%;
   object-fit: fill;
 }
 
 .group {
-  padding-left: 100px;
-  padding-top: 50px;
+  display: flex-box;
+  padding: 100px;
   background-color: #0364be;
 }
 
 .ourvalues {
   padding-left: 90px;
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 100px;
+  padding-right: 200px;
   border-left: #004c94;
   max-width: 450px;
+  /* line-height: 100%; */
 }
 
 .displaymore {
   display: flex;
   border-bottom: 0.3px solid #b8ddff;
-  padding: 10px;
+  padding: 0px;
   justify-content: space-between;
 }
 
@@ -197,6 +205,8 @@ body {
   background-color: white;
   padding-left: 200px;
   padding-bottom: 100px;
+  justify-content: space-between;
+  padding-right: 210px;
 }
 
 @media (max-width: 1000px) {
@@ -251,15 +261,14 @@ body {
   display: flex;
 }
 
-.authorize input {
+.authorize input{
   width: 20px;
   height: 20px;
-  margin: 16px;
-  margin-left: 0px;
+  margin: 20px 5px 20px 0px;
 }
 
 .userDemand button {
-  padding: 10px 80px 10px 80px;
+  padding: 10px 80px;
   margin-left: 0px;
   margin-top: 30px;
   border: none;
@@ -268,8 +277,14 @@ body {
 
 .question {
   max-width: 40%;
-  margin-right: 150px;
+  padding-right: 0px;
   padding: 10px;
+}
+
+.ifyouhave {
+  background-color: #eff7ff;
+  padding: 5px 20px;
+  margin-bottom: 1px;
 }
 
 .ifyouhave img {
@@ -277,12 +292,6 @@ body {
   border-radius: 1000px;
   width: 150px;
   height: 150px;
-  background-color: #eff7ff
-}
-
-.ifyouhave {
-  background-color: #eff7ff;
-  padding: 5px 10px;
 }
 
 .ifyouhave p {
@@ -290,15 +299,9 @@ body {
   padding: 10px;
 }
 
-.telephone {
-  background-color: #eff7ff;
-  padding: 5px 20px;
-  margin-top: 1px;
-}
-
 .findoffice {
   background-color: #f7f7f7;
-  padding: 20px;
+  padding: 20px 30px;
   margin-top: 5px;
 }
 .findoffice a{
@@ -323,7 +326,7 @@ body {
   font-weight: normal;
   font-size: 65%;
   border-radius: 5px;
-  padding: 15px 50px 15px 50px;
+  padding: 15px 50px;
   background-color: #007ef3;
 }
 
@@ -343,14 +346,12 @@ footer {
 }
 
 .userlink a {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 5px 10px;
 }
 
 .blacklogo {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
   border-top: 3px solid rgb(224, 224, 224);
 }
 
