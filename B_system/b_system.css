@@ -211,28 +211,6 @@ body {
   .ourvalues {
     grid-area: 4/1/5/2;
   }
-  /* .photoworking {
-    grid-area: a;
-  }
-  .howdo {
-    grid-area: b;
-  }
-  .group {
-    grid-area: c;
-  }
-  .ourvalues {
-    grid-area: d;
-  }
-
-  .fourGrids {
-    grid-template-areas:
-      "a"
-      "b"
-      "c"
-      "d";
-    grid-template-columns: 1fr;
-    grid-template-rows:auto; 
-  } */
 
 }
 
