@@ -24,6 +24,7 @@ body {
 .firstLineB{
   display: none;
 }
+
 .firstLine {
   background-color: rgba(4, 84, 170, 0.5);
   align-items: center;
@@ -33,7 +34,6 @@ body {
   box-shadow: 2px 4px 6px rgb(18, 117, 223);
   font-size: 120%;
 }
-
 
 .userLogo {
   margin-left: 30px;
@@ -104,7 +104,6 @@ body {
   }
 }
 
-
 /* ||section "we make magic" */
 .workingMan {
   background-image: url("image/Man_working.png");
@@ -116,9 +115,8 @@ body {
   .workingMan {
     background-position-x: center;
     background-size: 50%;
-    height: 1200;
+    height: 800px;
   }
-
 }
 
 .makeMagic {
@@ -184,7 +182,6 @@ body {
   }
 }
 
-
 /* ||section 4 grids */
 .fourGrids {
   color: white;
@@ -211,7 +208,6 @@ body {
   .ourvalues {
     grid-area: 4/1/5/2;
   }
-
 }
 
 /*|| 1em grid "How do we do it" */
@@ -312,7 +308,6 @@ body {
   .displaymore button{
     background-color: #0364be;
   }
-
 }
 
 /* ||section "Contact us!" */
@@ -332,7 +327,7 @@ body {
   grid-template-columns: 2fr 1fr;
   background-color: white;
   padding-left: 13%;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
    padding-right: 170px;  
 }
 
@@ -400,7 +395,6 @@ body {
 }
 @media screen and (max-width:550px){
   .userDemand {
-
     padding:18px;
     padding-top: 0;
   }
@@ -412,7 +406,6 @@ body {
 
 .question {
   max-width: 90%;
-  /* padding-left: 35px; */
 }
 
 .ifyouhave {
@@ -458,7 +451,7 @@ body {
   font-weight: bolder;
   font-size: 150%;
   text-align: center;
-  height: 150px;
+  height: 200px;
   padding-top: 60px;
   border-top: 3px solid rgb(224, 224, 224);
   border-bottom: 3px solid rgb(224, 224, 224);
@@ -476,6 +469,7 @@ body {
 
 .wantstart p {
   margin-top: 5px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width:550px){
@@ -489,6 +483,7 @@ body {
     padding: 20px 40px
   }
 }
+
 /* ||section footer */
 footer {
   background-color: white;
